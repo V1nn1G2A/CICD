@@ -1,0 +1,2533 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="ru" xml:lang="ru">
+<head>
+    <!-- * * * * * * *
+  
+        Name: SPACE Moodle Theme
+        URL: https://moodle-themes.rosea.io
+        Author: Rosea Themes
+        Version: 1.7.7
+        Software version: Moodle 3.7
+  
+        Copyright © 2018 - 2019
+  
+                                    _   _
+         _ __ ___  ___  ___  __ _  | |_| |__   ___ _ __ ___   ___  ___
+        | '__/ _ \/ __|/ _ \/ _` | | __| '_ \ / _ \ '_ ` _ \ / _ \/ __|
+        | | | (_) \__ \  __/ (_| | | |_| | | |  __/ | | | | |  __/\__ \
+        |_|  \___/|___/\___|\__,_|  \__|_| |_|\___|_| |_| |_|\___||___/
+  
+  
+      * * * * * * * -->
+  
+      <title>ЭИОС &quot;УлГУ&quot;: E҉nigma Project против войны! #NOWAR</title>
+      <link rel="shortcut icon" href="//portal.ulsu.ru/pluginfile.php/1/theme_space/favicon/1644222845/favicon.ico" />
+      <link rel="stylesheet" href="https://portal.ulsu.ru/theme/space/addons/fontawesome/5.11.2/css/all.css">
+  
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+  
+  
+      <script src="https://portal.ulsu.ru/theme/space/addons/overlayscrollbars/OverlayScrollbars.min.js"></script>
+  
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, ЭИОС &quot;УлГУ&quot;: E҉nigma Project против войны! #NOWAR" />
+<link rel="stylesheet" type="text/css" href="https://portal.ulsu.ru/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://portal.ulsu.ru/theme/styles.php/space/1644222845_1/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/portal.ulsu.ru","sesskey":"iJ29r0Zjgv","themerev":"1644222845","slasharguments":1,"theme":"space","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1644222845","admin":"admin","svgicons":true,"usertimezone":"\u0415\u0432\u0440\u043e\u043f\u0430\/\u0421\u0430\u043c\u0430\u0440\u0430","contextid":10706,"developerdebug":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":true,"base":"https:\/\/portal.ulsu.ru\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/portal.ulsu.ru\/theme\/yui_combo.php?","combine":true,"filter":"RAW","insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/portal.ulsu.ru\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/portal.ulsu.ru\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/portal.ulsu.ru\/theme\/yui_combo.php?m\/1644222845\/","combine":true,"comboBase":"https:\/\/portal.ulsu.ru\/theme\/yui_combo.php?","ext":false,"root":"m\/1644222845\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":"DEBUG","modules":{"moodle-core-event":{"requires":["event-custom"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/portal.ulsu.ru\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/portal.ulsu.ru\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1644222845\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/portal.ulsu.ru\/lib\/javascript.php\/1644222845\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/portal.ulsu.ru\/lib\/javascript.php\/1644222845\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+      <link rel="stylesheet" href="https://portal.ulsu.ru/CDO/customcss.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-mod-forum-discuss" class="format-site  path-mod path-mod-forum gecko dir-ltr lang-ru yui-skin-sam yui3-skin-sam portal-ulsu-ru pagelayout-incourse course-1 context-10706 cmid-79 ">
+
+<div id="page-wrapper" class="l-with-sidebar" name="top">
+
+    <script type="text/javascript" src="https://portal.ulsu.ru/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple.js"></script><script type="text/javascript" src="https://portal.ulsu.ru/theme/jquery.php/core/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="https://portal.ulsu.ru/lib/javascript.php/1644222845/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    
+    <div class="s-top s-top--sidebar justify-content-center">
+    
+      <div class="c-container row no-gutters justify-content-start align-items-center">
+    
+        <div data-region="drawer-toggle" class="ml-sm-2 ml-md-0 mr-md-3">
+            <button type="button" class="sidebar-btn" data-side="left">
+              <i class="fas fa-equals" id="sidebarBtn"></i>
+            </button>
+        </div>
+    
+        
+    
+        <div class="c-top ml-sm-2 mr-sm-2 ml-md-0 mr-md-0 d-md-flex align-items-center my-sm-2 my-lg-0 ml-sm-3 ml-md-2 ml-lg-0"><div class="c-lang-menu"><span class="dropdown">
+    <a class="dropdown-toggle" id="drop-down-621d053347104621d05334629d7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        Русский ‎(ru)‎
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-621d053347104621d05334629d7">
+                <a class="dropdown-item" href="https://portal.ulsu.ru/mod/forum/discuss.php?d=49952&amp;lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a>
+                <a class="dropdown-item" href="https://portal.ulsu.ru/mod/forum/discuss.php?d=49952&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+    </div>
+</span></div></div>
+    
+        <ul class="nav ml-sm-center ml-md-auto align-items-center justify-content-center">
+    
+            <li class="search-box d-block">
+            
+            </li>
+    
+            <!-- navbar_plugin_output -->
+            <div class="top-icons-nav"><div class="pull-right popover-region collapsed">
+    <a id="message-drawer-toggle-621d0533480ad621d05334629d8" class="nav-link d-inline-block popover-region-toggle position-relative" href="#">
+        <i class="icon far fa-comment-dots fa-fw " aria-hidden="true" title="Переключить меню сообщений" aria-label="Переключить меню сообщений"></i>
+        <div class="count-container hidden" data-region="count-container">0</div>
+    </a>
+</div><li class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="15662"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-621d053349120621d05334629d9"
+        aria-haspopup="true"
+        aria-label="Показать окно без новых уведомлений"
+        tabindex="0">
+                <i class="icon far fa-bell fa-fw " aria-hidden="true" title="Переключить меню уведомлений" aria-label="Переключить меню уведомлений"></i>
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="Непрочитанных уведомлений: 0">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-621d053349120621d05334629d9"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Окно уведомления"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Уведомления</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Пометить все прочитанным"
+           data-action="mark-all-read"
+           role="button">
+            <span class="normal-icon"><i class="icon fas fa-check fa-fw " aria-hidden="true" title="Пометить все прочитанным" aria-label="Пометить все прочитанным"></i></span>
+            <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+        </a>
+        <a href="https://portal.ulsu.ru/message/notificationpreferences.php?userid=15662"
+           title="Настройка уведомлений">
+            <i class="icon fas fa-cog fa-fw " aria-hidden="true" title="Настройка уведомлений" aria-label="Настройка уведомлений"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content" data-simplebar>
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Уведомлений нет</div>
+
+            </div>
+
+        </div>
+                <a class="see-all-link"
+                    href="https://portal.ulsu.ru/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Смотреть все</div>
+                    </div>
+                </a>
+    </div>
+</li></div>
+    
+            <!-- user_menu -->
+            <li class="c-user-menu">
+                <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    
+                    <div class="dropdown">
+                        <a href="#" class="btn btn-secondary dropdown-toggle" id="dropdown-1" title="Меню пользователя" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            
+                            <span class="userbutton"><span class="usertext mr-1">Тарасов Дмитрий Вадимович</span><span class="avatars"><span class="avatar current"><img src="https://portal.ulsu.ru/theme/image.php/space/core/1644222845/u/f3" class="userpicture defaultuserpic" width="105" height="105" role="presentation" aria-hidden="true" /></span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+                                        <a href="https://portal.ulsu.ru/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                <i class="icon fas fa-columns fa-fw " aria-hidden="true"  aria-label=""></i>
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                Личный кабинет
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="https://portal.ulsu.ru/user/profile.php?id=15662" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                <i class="icon fas fa-user fa-fw " aria-hidden="true"  aria-label=""></i>
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                О пользователе
+                                            </span>
+                                        </a>
+                                        <a href="https://portal.ulsu.ru/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                <i class="icon fas fa-book-open fa-fw " aria-hidden="true"  aria-label=""></i>
+                                            <span class="menu-action-text" id="actionmenuaction-3">
+                                                Оценки
+                                            </span>
+                                        </a>
+                                        <a href="https://portal.ulsu.ru/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
+                                                <i class="icon far fa-comment-dots fa-fw " aria-hidden="true"  aria-label=""></i>
+                                            <span class="menu-action-text" id="actionmenuaction-4">
+                                                Сообщения
+                                            </span>
+                                        </a>
+                                        <a href="https://portal.ulsu.ru/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                <i class="icon fas fa-cog fa-fw " aria-hidden="true"  aria-label=""></i>
+                                            <span class="menu-action-text" id="actionmenuaction-5">
+                                                Настройки
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="https://portal.ulsu.ru/login/logout.php?sesskey=iJ29r0Zjgv" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                <i class="icon fas fa-sign-out-alt fa-fw " aria-hidden="true"  aria-label=""></i>
+                                            <span class="menu-action-text" id="actionmenuaction-6">
+                                                Выход
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div>
+            </li>
+    
+        </ul>
+        <!-- search_box -->
+      </div>
+    
+    </div>
+
+    <div id="page" class="container-fluid">
+        <header id="page-header">
+
+    <div class="row no-gutters">
+
+      <div class="breadcrumbs w-100 row no-gutters">
+        <div id="page-navbar">
+            <nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://portal.ulsu.ru/my/" >Личный кабинет</a></li>
+                <li class="breadcrumb-item">Страницы сайта</li>
+                <li class="breadcrumb-item"><a href="https://portal.ulsu.ru/mod/forum/view.php?id=79" title="Форум">Объявления сайта</a></li>
+                <li class="breadcrumb-item"><a href="https://portal.ulsu.ru/mod/forum/discuss.php?d=49952" >E҉nigma Project против войны! #NOWAR</a></li>
+    </ol>
+</nav>
+        </div>
+      </div>
+
+      <div class="w-100 row no-gutters align-items-center c-header-content">
+        <div class="page-title mb-sm-3 mb-md-0"><div class="page-context-header"><div class="page-header-headings"><h1>Электронная информационно-образовательная среда "Ульяновского государственного университета"</h1></div></div></div>
+
+        <div class="settings-menu">
+          <div class="header-settings-menu-box">
+              
+          </div>
+          <div class="forumsearch">
+    <form action="https://portal.ulsu.ru/mod/forum/search.php" class="form-inline">
+        <input type="hidden" name="id" value="1">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                
+                <a class="btn-icon" role="button"
+                    data-container="body" data-toggle="popover"
+                    data-placement="right" data-content="&lt;div class=&quot;no-overflow&quot;&gt;&lt;p&gt;Для поиска одного или нескольких слов в тексте, просто введите их, разделяя пробелами. Используются все слова длиннее двух символов.&lt;/p&gt;
+
+&lt;p&gt;Для вызова формы расширенного поиска нажмите кнопку поиска ничего не вводя в поле.&lt;/p&gt;
+&lt;/div&gt; "
+                    data-html="true" tabindex="0" data-trigger="focus">
+                  <i class="icon far fa-question-circle fa-fw " aria-hidden="true" title="Справка по использованию элемента «Найти»" aria-label="Справка по использованию элемента «Найти»"></i>
+                </a>
+            </div>
+            <label class="sr-only" for="search">Поиск по форумам</label>
+            <input id="search" name="search" type="text" class="form-control" value="">
+            <div class="input-group-append">
+                <button class="btn btn-secondary" id="searchforums" type="submit">Искать</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+        </div>
+
+
+
+        
+
+
+      </div>
+
+    </div>
+
+</header>
+
+        <div id="page-content" class="row no-gutters page-main-content">
+            <div id="region-main-box">
+                <section id="region-main" >
+                  <span class="notifications" id="user-notifications"></span>
+                  <div role="main"><span id="maincontent"></span><h2>Объявления сайта</h2><h3 class="discussionname">E҉nigma Project против войны! #NOWAR</h3><div id="discussion-container-621d053368a26621d05334629d21" data-content="forum-discussion">
+    <div class="d-flex flex-wrap flex-row-reverse m-b-1 text-right" data-container="discussion-tools">
+
+        <div class="pl-1">
+            <div class="discussion-settings-menu">
+                <div class="ml-auto dropdown">
+                    <button class="dropdown-toggle btn btn-secondary btn-sm"
+                        type="button"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        tabindex="0"
+                        aria-controls="forum-action-menu-49952-menu"
+                        aria-expanded="false">
+                            <i class="icon fas fa-cog fa-fw " aria-hidden="true"  aria-label=""></i>
+                            Настройки
+                
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right menu"
+                         aria-labelledby="forum-action-menu-49952-menu"
+                         data-rel="menu-content"
+                         role="menu"
+                         id="forum-action-menu-49952-menu">
+                                <a
+                                    class="dropdown-item menu-action"
+                                    role="menuitem"
+                                    data-type="favorite-toggle"
+                                    data-action="toggle"
+                                    data-discussionid="49952"
+                                    data-forumid="65"
+                                    tabindex="-1"
+                                    href=""
+                                        data-targetstate="1"
+                                        title="Пометить это обсуждение"
+                                >
+                                    <span class="menu-action-text">
+                                                Пометить это обсуждение
+                                    </span>
+                                </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pl-1"><div class="discussionsubscription"><a title="Вы не подписаны на это обсуждение. Нажмите, чтобы подписаться." class="discussiontoggle iconsmall" data-forumid="65" data-discussionid="49952" data-includetext="1" href="https://portal.ulsu.ru/mod/forum/subscribe.php?sesskey=iJ29r0Zjgv&amp;id=65&amp;d=49952&amp;returnurl=https%3A%2F%2Fportal.ulsu.ru%2Fmod%2Fforum%2Fdiscuss.php%3Fd%3D49952"><i class="icon fas fa-envelope fa-fw " aria-hidden="true" title="Вы не подписаны на это обсуждение. Нажмите, чтобы подписаться." aria-label="Вы не подписаны на это обсуждение. Нажмите, чтобы подписаться."></i>Подписаться</a></div><span class="preload-subscribe">&nbsp;</span><span class="preload-unsubscribe">&nbsp;</span></div>
+    </div>
+    <div class="discussion-nav clearfix"><ul><li class="prev-discussion"><a aria-label="Предыдущее обсуждение: ВНИМАНИЕ!!! Приказ 53 от 28.01.2022 Об усилении мер по противодействию распространения новой коронавирусной инфекции" href="https://portal.ulsu.ru/mod/forum/discuss.php?d=47672">ВНИМАНИЕ!!! Приказ 53 от 28.01.2022 Об усилении мер по противодействию распространения новой коронавирусной инфекции</a></li></ul></div>
+
+    <div class="d-flex flex-wrap mb-1">
+        <div class="exportdiscussion"></div>
+        <div class="modeselectorform "><div class="singleselect d-inline-block">
+    <form method="get" action="https://portal.ulsu.ru/mod/forum/discuss.php" class="form-inline" id="mode">
+            <input type="hidden" name="d" value="49952">
+            <label for="single_select621d05334629d20" class="accesshide">
+                Режим отображения
+            </label>
+        <select  id="single_select621d05334629d20" class="custom-select singleselect" name="mode"
+                 >
+                    <option  value="1" >Плоско, впереди старые</option>
+                    <option  value="-1" >Плоско, впереди новые</option>
+                    <option  value="2" >Древовидно, свернуто</option>
+                    <option  value="3" selected>Древовидно</option>
+        </select>
+        <noscript>
+            <input type="submit" class="btn btn-secondary" value="Применить">
+        </noscript>
+    </form>
+</div></div>
+        <div class="movediscussion my-sm-2 my-md-0 ml-sm-0 ml-md-2"></div>
+    </div>
+
+
+<article
+        id="p65288"
+        class="forum-post-container mb-2"
+        data-post-id="65288"
+        data-region="post"
+        data-target="65288-target"
+        tabindex="0"
+        aria-labelledby="post-header-65288"
+        aria-describedby="post-content-65288"
+    >
+        <!-- The firstpost and starter classes below aren't used for anything other than to identify the first post in behat -->
+        <div
+            class="d-flex border mb-2 forumpost focus-target  firstpost starter"
+            aria-label='E҉nigma Project против войны! #NOWAR от Янковский Сергей Станиславович'
+            data-post-id="65288" data-content="forum-post"
+        >
+            
+    
+            <div class="d-flex flex-column w-100"  data-region-content="forum-post-core">
+                <header  class="mb-2 pb-2 header row d-flex border-bottom">
+                            <div class="mr-3" style="width: 43px;">
+                                    <img
+                                        class="rounded-circle w-100"
+                                        src="https://portal.ulsu.ru/pluginfile.php/11346/user/icon/space/f1?rev=3925474"
+                                        alt="Изображение пользователя Янковский Сергей Станиславович"
+                                        aria-hidden="true"
+                                    >
+                            </div>
+                    <div class="d-flex flex-column">
+                        <h3 class="h6 mt-1 font-weight-bold mb-0" data-region-content="forum-post-core-subject">E҉nigma Project против войны! #NOWAR</h3>
+                            <address class="small mb-0" tabindex="-1">
+                                от <a href="https://portal.ulsu.ru/user/view.php?id=4117">Янковский Сергей Станиславович</a> - <time>Monday, 28 February 2022, 21:04</time>
+                            </address>
+                            <span class="sr-only">Количество ответов: 0</span>
+                    </div>
+                </header>
+    
+                <div class="d-flex body-content-container">
+                            <div class="mr-3 author-groups-container d-sm-none d-md-block" style="width: 45px; flex-shrink: 0">
+                            </div>
+    
+                    <div class="w-100 content-alignment-container">
+                        <div id="post-content-65288" class="post-content-container mb-sm-4">
+                            <p>Привет! С Вами Enigma Project. Нам очень не понравилось, как фашист, а так же ректор данного университета высказался о войне на Украине. По сему, публикуется данное сообщение. Украина не начинала эту войну, ее начал президент Фашисткой России. Какое право имели вы записывать такое оскорбительное видео? Думаем никого. Мы ставим ультиматум Вам и всему учебному учреждению. На данный момент все ваши данные находятся под нашим контролем и если вы не удалите данное видео, а так же все упоминания о "беженцах" из Украины мы выложим всю базу в открытый доступ. Сейчас у нас имеются данные о студентах, их паспортные данные и прочее. Даем вам 72 часа на данное действие. Все, кто видят сейчас данное сообщение, распространите его, чтобы до человека дошло, что он неправ!<br /><br />Слава Україні! <br /><img src="https://i.ytimg.com/vi/4LOMNfDEAAk/maxresdefault.jpg" alt="#NOWAR" width="1200" height="720" class="img-responsive atto_image_button_text-bottom" /><br /></p>
+                        </div>
+    
+    
+    
+                            <div class="tag_list hideoverlimit ">
+    <b>Теги:</b>
+    <ul class="inline-list">
+            <li >
+                <a href="https://portal.ulsu.ru/tag/index.php?tc=1&amp;tag=%23NOWAR%20%23OpRussia&amp;from=10706" class="badge badge-info " >
+                    #NOWAR #OpRussia</a>
+            </li>
+    </ul>
+    </div>
+    
+    
+                            <div class="d-flex flex-wrap">
+                                        <div
+                                            class="w-100 post-actions d-flex align-self-end justify-content-end flex-wrap ml-auto mt-2"
+                                            data-region="post-actions-container"
+                                            role="menubar"
+                                            aria-label='E҉nigma Project против войны! #NOWAR от Янковский Сергей Станиславович'
+                                            aria-controls="p65288"
+                                        >
+                                                    <a
+                                                        data-region="post-action"
+                                                        href="https://portal.ulsu.ru/mod/forum/discuss.php?d=49952#p65288"
+                                                        class="btn btn-secondary btn-sm ml-1"
+                                                        title="Постоянная ссылка на это сообщение"
+                                                        aria-label="Постоянная ссылка на это сообщение"
+                                                    >
+                                                        Постоянная ссылка
+                                                    </a>
+                                        </div>
+                            </div>
+    
+                            <div class="forum-post-footer mt-2">
+                              
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div data-region="replies-container">
+        <div class="indent">
+        </div>
+        </div>
+    </article>
+
+<div class="discussion-nav clearfix"><ul><li class="prev-discussion"><a aria-label="Предыдущее обсуждение: ВНИМАНИЕ!!! Приказ 53 от 28.01.2022 Об усилении мер по противодействию распространения новой коронавирусной инфекции" href="https://portal.ulsu.ru/mod/forum/discuss.php?d=47672">ВНИМАНИЕ!!! Приказ 53 от 28.01.2022 Об усилении мер по противодействию распространения новой коронавирусной инфекции</a></li></ul></div>
+</div></div>
+                  <div class="course-footer-nav">
+
+    <hr class="hr" />
+
+<div class="row">
+    <div class="col-sm-12 col-md">        <div class="pull-left">
+            
+        </div>
+</div>
+    <div class="col-sm-12 col-md-2">        <div class="mdl-align">
+            <div class="urlselect">
+    <form method="post" action="https://portal.ulsu.ru/course/jumpto.php" class="form-inline" id="url_select_f621d05334629d18">
+        <input type="hidden" name="sesskey" value="iJ29r0Zjgv">
+            <label for="jump-to-activity" class="sr-only">
+                Перейти на...
+            </label>
+        <select  id="jump-to-activity" class="custom-select urlselect" name="jump"
+                 >
+                    <option value="" selected>Перейти на...</option>
+                    <option value="/mod/page/view.php?id=244307&amp;forceview=1" >Технические требования</option>
+                    <option value="/mod/page/view.php?id=770175&amp;forceview=1" >Нормативные документы</option>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary" value="Применить">
+            </noscript>
+    </form>
+</div>
+
+        </div>
+</div>
+    <div class="col-sm-12 col-md">        <div class="pull-right">
+                <a href="https://portal.ulsu.ru/mod/page/view.php?id=244307&forceview=1" id="next-activity-link" class="btn btn-link btn btn-secondary"  title="Технические требования" >Технические требования ⟶</a>
+
+        </div>
+</div>
+</div>
+</div>
+                  
+                </section>
+            </div>
+        </div>
+    </div>
+    <div
+    id="message-drawer-621d0533572a0621d05334629d19"
+    class="message-drawer p-3 hidden"
+    aria-expanded="false"
+    aria-hidden="true"
+    data-region="message-drawer"
+    role="region"
+>
+
+    <div class="header-container row no-gutters justify-content-between mb-2" data-region="header-container">
+        <button class="message-drawer-toggle"><i class="fas fa-times"></i></button>
+        <div class="col text-right mb-2 no-gutters p-0">
+          <a
+              href="#"
+              data-route="view-settings"
+              class="btn btn-msg"
+              data-route-param="15662"
+          >
+              <i class="icon fas fa-cog fa-fw " aria-hidden="true"  aria-label=""></i>
+          </a>
+        
+          <a href="#" data-route="view-contacts" class="btn btn-msg btn-msg-gray">
+              <span><i class="icon fas fa-user fa-fw " aria-hidden="true"  aria-label=""></i></span>
+              <span class="badge bg-primary text-white ml-2 hidden" data-region="contact-request-count">
+                  0
+              </span>
+          </a>
+        </div>
+        
+        <div class="d-block w-100">
+          <div aria-hidden="false" data-region="view-overview">
+              <div class="d-flex align-items-center">
+                  <div class="input-group">
+        
+                      <input
+                          type="text"
+                          class="form-control mb-1"
+                          placeholder="Поиск"
+                          aria-label="Поиск"
+                          data-region="view-overview-search-input"
+                      >
+                  </div>
+              </div>
+        
+          </div>
+        </div>
+        
+        <div class="hidden view-search row no-gutters justify-content-between align-items-center w-100" aria-hidden="true" data-region="view-search">
+            <div class="d-flex align-items-center w-100">
+                <a
+                    class="mr-2 align-self-stretch d-flex align-items-center btn btn-sm"
+                    href="#"
+                    data-route-back
+                    data-action="cancel-search"
+                >
+                    <span class="dir-rtl-hide"><i class="icon fas fa-arrow-left fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                    <span class="dir-ltr-hide"><i class="icon fas fa-arrow-right fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                </a>
+                <div class="input-group">
+                    <input
+                        type="text"
+                        class="form-control m-0"
+                        placeholder="Поиск"
+                        aria-label="Поиск"
+                        data-region="search-input"
+                    >
+                    <div class="input-group-append">
+                        <button
+                            class="btn btn-secondary"
+                            type="button"
+                            data-action="search"
+                        >
+                            <span data-region="search-icon-container">
+                                <i class="icon fas fa-search fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="hidden" data-region="loading-icon-container">
+                                <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hidden mt-1" aria-hidden="true" data-region="view-settings">
+            <div class="row no-gutters justify-content-between align-items-center w-100 py-2">
+                <div class="align-self-stretch" >
+                    <a class="h-100 py-3 d-flex mr-2 align-items-center btn btn-sm" href="#" data-route-back>
+                        <span class="dir-rtl-hide"><i class="icon fas fa-arrow-left fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                        <span class="dir-ltr-hide"><i class="icon fas fa-arrow-right fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                    </a>
+                </div>
+                <div class="p-2 my-0 h6">
+                    Настройки
+                </div>
+            </div>
+        </div>
+        <div class="hidden row no-gutters justify-content-between align-items-center w-100 py-2" aria-hidden="true" data-region="view-contacts">
+        
+                <div class="align-self-stretch mt-1">
+                    <a class="h-100 d-flex py-3 mr-2 align-items-center btn btn-sm" href="#" data-route-back>
+                        <span class="dir-rtl-hide"><i class="icon fas fa-arrow-left fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                        <span class="dir-ltr-hide"><i class="icon fas fa-arrow-right fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                    </a>
+                </div>
+                <div class="mt-1 p-2 h3 my-0 h6">
+                    Собеседники
+                </div>
+                <div class="mt-1 ml-auto">
+                    <a href="#" data-route="view-search" class="btn btn-msg btn-msg-gray">
+                        <i class="icon fas fa-search fa-fw " aria-hidden="true"  aria-label=""></i>
+                    </a>
+                </div>
+        
+        </div>
+        
+        <div
+            class="hidden c-message-header w-100"
+            aria-hidden="true"
+            data-region="view-conversation"
+        >
+            <div class="hidden" data-region="header-content"></div>
+            <div class="hidden" data-region="header-edit-mode">
+                
+                <div class="d-flex align-items-center">
+                    <div class="col">
+                      <span class="text-bold">Выбранные сообщения:</span>
+                      <span class="m-x-1" data-region="message-selected-court">1</span>
+                    </div>
+                    <button type="button" class="btn btn-msg btn-msg-gray" aria-label="" data-action="cancel-edit-mode">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                </div>
+            </div>
+            <div data-region="header-placeholder">
+                <div class="d-flex">
+                    <div class="align-self-stretch" >
+                        <a class="h-100 py-3 mr-2 d-flex align-items-center btn btn-sm" href="#" data-route-back>
+                            <span class="dir-rtl-hide"><i class="icon fas fa-arrow-left fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                            <span class="dir-ltr-hide"><i class="icon fas fa-arrow-right fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                        </a>
+                    </div>
+                    <div
+                        class="ml-2 rounded bg-pulse-grey align-self-center"
+                        style="height: 38px; width: 38px"
+                    >
+                    </div>
+                    <div class="ml-2 " style="flex: 1">
+                        <div
+                            class="mt-1 bg-pulse-grey w-75"
+                            style="height: 16px;"
+                        >
+                        </div>
+                    </div>
+                    <div
+                        class="ml-2 bg-pulse-grey align-self-center"
+                        style="height: 16px; width: 20px"
+                    >
+                    </div>
+                </div>
+            </div>
+            <div
+                class="hidden position-absolute"
+                data-region="confirm-dialogue-container"
+                style="top: 0; bottom: -1px; right: 0; left: 0; background: rgba(255, 255, 255, 0.84);"
+            ></div>
+        </div>
+    </div>
+    <div class="body-container position-relative" data-region="body-container">
+        
+        <div
+            class="hidden"
+            data-region="view-contact"
+            aria-hidden="true"
+        >
+            <div class="p-0" data-region="content-container"></div>
+        </div>
+        <div class="hidden h-100" data-region="view-contacts" aria-hidden="true" data-user-id="15662">
+            <div class="d-flex flex-column h-100">
+                <div class="border-top">
+                    <ul class="nav nav-pills nav-fill my-3" role="tablist">
+                        <li class="nav-item">
+                            <a
+                                id="contacts-tab-621d0533572a0621d05334629d19"
+                                class="nav-link active"
+                                href="#contacts-tab-panel-621d0533572a0621d05334629d19"
+                                data-toggle="tab"
+                                data-action="show-contacts-section"
+                                role="tab"
+                                aria-controls="contacts-tab-panel-621d0533572a0621d05334629d19"
+                                aria-selected="true"
+                            >
+                                Собеседники
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                id="requests-tab-621d0533572a0621d05334629d19"
+                                class="nav-link"
+                                href="#requests-tab-panel-621d0533572a0621d05334629d19"
+                                data-toggle="tab"
+                                data-action="show-requests-section"
+                                role="tab"
+                                aria-controls="requests-tab-panel-621d0533572a0621d05334629d19"
+                                aria-selected="false"
+                            >
+                                Запросы
+                                <span class="badge ml-2 hidden"
+                                data-region="contact-request-count"
+                                aria-label="Ожидающих запросов на добавление в собеседники: 0">
+                                    0
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content d-flex flex-column h-100">
+                            <div
+            class="tab-pane fade show active h-100 lazy-load-list"
+            aria-live="polite"
+            data-region="lazy-load-list"
+            data-user-id="15662"
+                                id="contacts-tab-panel-621d0533572a0621d05334629d19"
+                    data-section="contacts"
+                    role="tabpanel"
+                    aria-labelledby="contacts-tab-621d0533572a0621d05334629d19"
+
+        >
+            
+            <div class="hidden text-center p-2 alert alert-warning mb-0" data-region="empty-message-container">
+                Нет контактов
+            </div>
+            <div class="hidden list-group" data-region="content-container">
+                
+            </div>
+            <div class="list-group" data-region="placeholder-container">
+                
+            </div>
+            <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+            </div>
+        </div>
+        
+                            <div
+            class="tab-pane fade h-100 lazy-load-list"
+            aria-live="polite"
+            data-region="lazy-load-list"
+            data-user-id="15662"
+                                id="requests-tab-panel-621d0533572a0621d05334629d19"
+                    data-section="requests"
+                    role="tabpanel"
+                    aria-labelledby="requests-tab-621d0533572a0621d05334629d19"
+
+        >
+            
+            <div class="hidden text-center p-2 alert alert-warning mb-0" data-region="empty-message-container">
+                Нет запросов на добавление в контакты
+            </div>
+            <div class="hidden list-group" data-region="content-container">
+                
+            </div>
+            <div class="list-group" data-region="placeholder-container">
+                
+            </div>
+            <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div
+            class="view-conversation hidden h-100"
+            aria-hidden="true"
+            data-region="view-conversation"
+            data-user-id="15662"
+            data-midnight="1645992000"
+            data-message-poll-min="10"
+            data-message-poll-max="120"
+            data-message-poll-after-max="300"
+            style="overflow-y: auto; overflow-x: hidden"
+        >
+            <div class="position-relative h-100" data-region="content-container" style="overflow-y: auto; overflow-x: hidden">
+                <div class="content-message-container hidden h-100 pt-0" data-region="content-message-container" role="log" style="overflow-y: auto; overflow-x: hidden">
+                    <div class="p-3 sticky-top alert alert-info z-index-1 text-center hidden" data-region="contact-request-sent-message-container">
+                        <p class="m-0">Запрос на добавление в контакты отправлен</p>
+                        <p class="font-italic font-weight-light" data-region="text"></p>
+                    </div>
+                    <div class="p-3 alert alert-info text-center hidden rounded" data-region="self-conversation-message-container">
+                        <p class="m-0">Личное пространство</p>
+                        <p class="font-italic font-weight-light" data-region="text">Сохраните черновики сообщений, ссылок, заметок и т.п. К ним можно будет вернуться позже.</p>
+                   </div>
+                    <div class="hidden text-center p-3" data-region="more-messages-loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</div>
+                </div>
+                <div class="p-4 w-100 h-100 hidden position-absolute" data-region="confirm-dialogue-container" style="top: 0; background: rgba(0,0,0,0.3);">
+                    
+                    <div class="p-3 bg-white" data-region="confirm-dialogue" role="alert">
+                        <h3 class="h6 hidden" data-region="dialogue-header"></h3>
+                        <p class="text-muted" data-region="dialogue-text"></p>
+                        <div class="mb-2 hidden" data-region="delete-messages-for-all-users-toggle-container">
+                            <label class="custom-control-label ml-2 text-muted">
+                                <input type="checkbox" data-region="delete-messages-for-all-users-toggle">
+                                Удалить у меня и у всех остальных
+                            </label>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-block">
+                            <span data-region="dialogue-button-text">Блок</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-unblock">
+                            <span data-region="dialogue-button-text">Разблокировать</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-remove-contact">
+                            <span data-region="dialogue-button-text">Удалить</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-add-contact">
+                            <span data-region="dialogue-button-text">Добавить</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-selected-messages">
+                            <span data-region="dialogue-button-text">Удалить</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-conversation">
+                            <span data-region="dialogue-button-text">Удалить</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="request-add-contact">
+                            <span data-region="dialogue-button-text">Отправить запрос на добавление в контакты</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-block hidden" data-action="accept-contact-request">
+                            <span data-region="dialogue-button-text">Принять и добавить в контакты</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-block hidden" data-action="decline-contact-request">
+                            <span data-region="dialogue-button-text">Отказаться</span>
+                            <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-block" data-action="cancel-confirm">Отмена</button>
+                    </div>
+                </div>
+                <div class="px-2 pb-2 pt-0" data-region="content-placeholder">
+                    <div class="h-100 d-flex flex-column">
+                        <div
+                            class="px-2 pb-2 pt-0 bg-light h-100"
+                            style="overflow-y: auto"
+                        >
+                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                            <div class="mt-4">
+                                <div class="mb-4">
+                                    <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                                <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="mr-2">
+                                            <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                        </div>
+                                        <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                        <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                    </div>
+                                    <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                    <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                </div>
+                            </div>                        </div>
+                    </div>                </div>
+            </div>
+        </div>
+        
+        <div
+            class="hidden"
+            aria-hidden="true"
+            data-region="view-group-info"
+        >
+            <div
+                class="pt-0 h-100 d-flex flex-column"
+                data-region="group-info-content-container"
+                style="overflow-y: auto"
+            ></div>
+        </div>
+        <div class="h-100 view-overview-body" aria-hidden="false" data-region="view-overview"  data-user-id="15662">
+            <div id="message-drawer-view-overview-container-621d0533572a0621d05334629d19" class="d-flex flex-column h-100" style="overflow-y: auto">
+                    
+                    
+                    <div
+                        class="section card"
+                        data-region="view-overview-favourites"
+                    >
+                        <div id="view-overview-favourites-toggle" class="card-header p-0" data-region="toggle">
+                            <button
+                                class="btn btn-link w-100 text-left pl-3 pr-1 py-2 d-flex align-items-center overview-section-toggle border-0 collapsed"
+                                data-toggle="collapse"
+                                data-target="#view-overview-favourites-target-621d0533572a0621d05334629d19"
+                                aria-expanded="false"
+                                aria-controls="view-overview-favourites-target-621d0533572a0621d05334629d19"
+                            >
+                    
+                                <span class="Помеченные font-weight-bold text-uppercase text-gray">Помеченные</span>
+                    
+                                <div class="ml-auto">
+                                  <small class="hidden mx-1 badge badge-info font-weight-bold" data-region="section-total-count-container"
+                                  aria-label="Всего бесед: ">
+                                      <span data-region="section-total-count"></span>
+                                  </small>
+                                  <span class="hidden ml-2" data-region="loading-icon-container">
+                                      <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+                                  </span>
+                                  <span class="hidden badge badge-pill badge-primary ml-auto"
+                                  data-region="section-unread-count"
+                                  >
+                                      
+                                  </span>
+                                </div>
+                    
+                            </button>
+                        </div>
+                                            <div
+                        class="collapse  lazy-load-list"
+                        aria-live="polite"
+                        data-region="lazy-load-list"
+                        data-user-id="15662"
+                                    id="view-overview-favourites-target-621d0533572a0621d05334629d19"
+            aria-labelledby="view-overview-favourites-toggle"
+            data-parent="#message-drawer-view-overview-container-621d0533572a0621d05334629d19"
+
+                    >
+                        
+                        <div class="hidden text-center p-2 alert alert-warning mb-0" data-region="empty-message-container">
+                                    <p class="small my-2">Нет помеченных бесед</p>
+
+                        </div>
+                        <div class="hidden list-group" data-region="content-container">
+                            
+                        </div>
+                        <div class="list-group" data-region="placeholder-container">
+                                    <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</div>
+
+                        </div>
+                        <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                            <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    
+                    <div
+                        class="section card"
+                        data-region="view-overview-group-messages"
+                    >
+                        <div id="view-overview-group-messages-toggle" class="card-header p-0" data-region="toggle">
+                            <button
+                                class="btn btn-link w-100 text-left pl-3 pr-1 py-2 d-flex align-items-center overview-section-toggle border-0 collapsed"
+                                data-toggle="collapse"
+                                data-target="#view-overview-group-messages-target-621d0533572a0621d05334629d19"
+                                aria-expanded="false"
+                                aria-controls="view-overview-group-messages-target-621d0533572a0621d05334629d19"
+                            >
+                    
+                                <span class="Группа font-weight-bold text-uppercase text-gray">Группа</span>
+                    
+                                <div class="ml-auto">
+                                  <small class="hidden mx-1 badge badge-info font-weight-bold" data-region="section-total-count-container"
+                                  aria-label="Всего бесед: ">
+                                      <span data-region="section-total-count"></span>
+                                  </small>
+                                  <span class="hidden ml-2" data-region="loading-icon-container">
+                                      <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+                                  </span>
+                                  <span class="hidden badge badge-pill badge-primary ml-auto"
+                                  data-region="section-unread-count"
+                                  >
+                                      
+                                  </span>
+                                </div>
+                    
+                            </button>
+                        </div>
+                                            <div
+                        class="collapse  lazy-load-list"
+                        aria-live="polite"
+                        data-region="lazy-load-list"
+                        data-user-id="15662"
+                                    id="view-overview-group-messages-target-621d0533572a0621d05334629d19"
+            aria-labelledby="view-overview-group-messages-toggle"
+            data-parent="#message-drawer-view-overview-container-621d0533572a0621d05334629d19"
+
+                    >
+                        
+                        <div class="hidden text-center p-2 alert alert-warning mb-0" data-region="empty-message-container">
+                                    <p class="small my-2">Нет групповых бесед</p>
+
+                        </div>
+                        <div class="hidden list-group" data-region="content-container">
+                            
+                        </div>
+                        <div class="list-group" data-region="placeholder-container">
+                                    <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</div>
+
+                        </div>
+                        <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                            <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    
+                    <div
+                        class="section card"
+                        data-region="view-overview-messages"
+                    >
+                        <div id="view-overview-messages-toggle" class="card-header p-0" data-region="toggle">
+                            <button
+                                class="btn btn-link w-100 text-left pl-3 pr-1 py-2 d-flex align-items-center overview-section-toggle border-0 collapsed"
+                                data-toggle="collapse"
+                                data-target="#view-overview-messages-target-621d0533572a0621d05334629d19"
+                                aria-expanded="false"
+                                aria-controls="view-overview-messages-target-621d0533572a0621d05334629d19"
+                            >
+                    
+                                <span class="Личное font-weight-bold text-uppercase text-gray">Личное</span>
+                    
+                                <div class="ml-auto">
+                                  <small class="hidden mx-1 badge badge-info font-weight-bold" data-region="section-total-count-container"
+                                  aria-label="Всего бесед: ">
+                                      <span data-region="section-total-count"></span>
+                                  </small>
+                                  <span class="hidden ml-2" data-region="loading-icon-container">
+                                      <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+                                  </span>
+                                  <span class="hidden badge badge-pill badge-primary ml-auto"
+                                  data-region="section-unread-count"
+                                  >
+                                      
+                                  </span>
+                                </div>
+                    
+                            </button>
+                        </div>
+                                            <div
+                        class="collapse  lazy-load-list"
+                        aria-live="polite"
+                        data-region="lazy-load-list"
+                        data-user-id="15662"
+                                    id="view-overview-messages-target-621d0533572a0621d05334629d19"
+            aria-labelledby="view-overview-messages-toggle"
+            data-parent="#message-drawer-view-overview-container-621d0533572a0621d05334629d19"
+
+                    >
+                        
+                        <div class="hidden text-center p-2 alert alert-warning mb-0" data-region="empty-message-container">
+                                    <p class="text-muted mt-2">Нет личных бесед</p>
+
+                        </div>
+                        <div class="hidden list-group" data-region="content-container">
+                            
+                        </div>
+                        <div class="list-group" data-region="placeholder-container">
+                                    <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</div>
+
+                        </div>
+                        <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container" >
+                            <span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        
+        <div
+            data-region="view-search"
+            aria-hidden="true"
+            class="h-100 hidden"
+            data-user-id="15662"
+            data-users-offset="0"
+            data-messages-offset="0"
+            style="overflow-y: auto"
+            
+        >
+            <div class="hidden" data-region="search-results-container" style="overflow-y: auto">
+                
+                <div class="d-flex flex-column">
+                    <div class="mb-3 bg-white" data-region="all-contacts-container">
+                        <div data-region="contacts-container"  class="pt-2">
+                            <h4 class="mt-2 px-2">Собеседники</h4>
+                            <div class="list-group" data-region="list"></div>
+                        </div>
+                        <div data-region="non-contacts-container" class="pt-2">
+                            <h4 class="mt-3 px-2">Собеседники отсутствуют</h4>
+                            <div class="list-group" data-region="list"></div>
+                        </div>
+                        <div class="my-2 px-2">
+                            <button class="btn btn-sm btn-secondary w-100" data-action="load-more-users">
+                                <span data-region="button-text">Загрузить больше</span>
+                                <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bg-white" data-region="messages-container">
+                        <h4 class="px-2 pt-2">Сообщения</h4>
+                        <div class="list-group" data-region="list"></div>
+                        <div class="my-3 px-2">
+                            <button class="btn btn-sm btn-secondary w-100" data-action="load-more-messages">
+                                <span data-region="button-text">Загрузить больше</span>
+                                <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="hidden p-3 text-center" data-region="no-results-container">Нет результатов</p>
+                </div>
+            </div>
+            <div class="hidden" data-region="loading-placeholder">
+                <div class="text-center pt-3 icon-size-4"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</div>
+            </div>
+            <div class="p-3 text-center" data-region="empty-message-container">
+                <p>Поиск пользователей и сообщений</p>
+            </div>
+        </div>        
+        <div class="h-100 hidden bg-white" aria-hidden="true" data-region="view-settings">
+            <div class="hidden" data-region="content-container">
+                
+                <div data-region="settings" class="p-3">
+                    <h3 class="h6 font-weight-bold">Приватность</h3>
+                    <p>Вы можете ограничить круг лиц, которые могут отправлять вам сообщения</p>
+                    <div data-preference="blocknoncontacts" class="mb-3">
+                            <div class="custom-control custom-radio mb-2">
+                                <input
+                                    type="radio"
+                                    name="message_blocknoncontacts"
+                                    class="custom-control-input"
+                                    id="block-noncontacts-621d0533572a0621d05334629d19-1"
+                                    value="1"
+                                >
+                                <label class="custom-control-label ml-3" for="block-noncontacts-621d0533572a0621d05334629d19-1">
+                                    Только мои контакты
+                                </label>
+                            </div>
+                            <div class="custom-control custom-radio mb-2">
+                                <input
+                                    type="radio"
+                                    name="message_blocknoncontacts"
+                                    class="custom-control-input"
+                                    id="block-noncontacts-621d0533572a0621d05334629d19-0"
+                                    value="0"
+                                >
+                                <label class="custom-control-label ml-3" for="block-noncontacts-621d0533572a0621d05334629d19-0">
+                                    Мои контакты и любой в моих курсах
+                                </label>
+                            </div>
+                    </div>
+                
+                    <hr />
+                    
+                    <div class="hidden" data-region="notification-preference-container">
+                        <h3 class="h6 mb-2 mt-4 font-weight-bold">Настройка уведомлений</h3>
+                    </div>
+                
+                    <hr />
+                
+                    <h3 class="h6 mb-2 mt-4 font-weight-bold">Основные</h3>
+                    <div data-preference="entertosend">
+                        <span class="switch">
+                            <input type="checkbox"
+                                id="enter-to-send-621d0533572a0621d05334629d19"
+                                checked
+                            >
+                            <label for="enter-to-send-621d0533572a0621d05334629d19">
+                                Использовать Enter для отправки
+                            </label>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div data-region="placeholder-container">
+                
+                <div class="d-flex flex-column p-3">
+                    <div class="w-25 bg-pulse-grey h6" style="height: 18px"></div>
+                    <div class="w-75 bg-pulse-grey mb-4" style="height: 18px"></div>
+                    <div class="mb-3">
+                        <div class="w-100 d-flex mb-3">
+                            <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                            <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                        </div>
+                        <div class="w-100 d-flex mb-3">
+                            <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                            <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                        </div>
+                        <div class="w-100 d-flex mb-3">
+                            <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                            <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                        </div>
+                    </div>
+                    <div class="w-50 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                    <div class="mb-4">
+                        <div class="w-100 d-flex mb-2 align-items-center">
+                            <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                            <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                        </div>
+                        <div class="w-100 d-flex mb-2 align-items-center">
+                            <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                            <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                        </div>
+                    </div>
+                    <div class="w-25 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                    <div class="mb-3">
+                        <div class="w-100 d-flex mb-2 align-items-center">
+                            <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                            <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                        </div>
+                    </div>
+                </div>            </div>
+        </div>    </div>
+    <div class="footer-container position-relative" data-region="footer-container">
+        
+        <div
+            class="hidden position-relative"
+            aria-hidden="true"
+            data-region="view-conversation"
+            data-enter-to-send="1"
+        >
+            <div class="hidden" data-region="content-messages-footer-container">
+                
+                <div class="mt-1">
+                    <textarea
+                        dir="auto"
+                        data-region="send-message-txt"
+                        class="form-control w-100"
+                        rows="3"
+                        data-auto-rows
+                        data-min-rows="3"
+                        data-max-rows="5"
+                        role="textbox"
+                        aria-label="Напишите сообщение..."
+                        placeholder="Напишите сообщение..."
+                        style="resize: none"
+                    ></textarea>
+                    <button
+                        class="btn btn-primary mt-1 w-100"
+                        aria-label="Отправить сообщение"
+                        data-action="send-message"
+                    >
+                        <span data-region="send-icon-container"><i class="icon far fa-paper-plane fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                        <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hidden" data-region="content-messages-footer-edit-mode-container">
+                
+                <div class="d-flex justify-content-end">
+                    <button
+                        class="btn btn-reset w-100"
+                        data-action="delete-selected-messages"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Удалить выбранные сообщения"
+                    >
+                        <span data-region="icon-container"><i class="icon fas fa-trash fa-fw " aria-hidden="true"  aria-label=""></i></span>
+                        <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                        <span class="sr-only">Удалить выбранные сообщения</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hidden alert alert-warning m-0" data-region="content-messages-footer-require-contact-container">
+                
+                
+                    <p data-region="title"></p>
+                    <p class="text-muted" data-region="text"></p>
+                    <button type="button" class="btn btn-primary btn-block" data-action="request-add-contact">
+                        <span data-region="dialogue-button-text">Отправить запрос на добавление в контакты</span>
+                        <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                    </button>
+            </div>
+            <div class="hidden alert alert-warning m-0" data-region="content-messages-footer-require-unblock-container">
+                
+                    <p class="text-muted" data-region="text">Вы заблокировали этого пользователя</p>
+                    <button type="button" class="btn btn-primary btn-block" data-action="request-unblock">
+                        <span data-region="dialogue-button-text">Разблокировать пользователя</span>
+                        <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fas fa-circle-notch fa-spin fa-fw " aria-hidden="true" title="Загрузка" aria-label="Загрузка"></i></span>
+</span>
+                    </button>
+            </div>
+            <div class="hidden alert alert-warning m-0" data-region="content-messages-footer-unable-to-message">
+                
+                
+                    <p class="text-muted" data-region="text">Вы не можете отправить сообщение этому пользователю</p>
+            </div>
+            <div class="p-2" data-region="placeholder-container">
+                <div class="d-flex">
+                    <div class="bg-pulse-grey w-100" style="height: 80px"></div>
+                    <div class="mx-2 mb-2 align-self-end bg-pulse-grey" style="height: 20px; width: 20px"></div>
+                </div>            </div>
+            <div
+                class="hidden position-absolute"
+                data-region="confirm-dialogue-container"
+                style="top: -1px; bottom: 0; right: 0; left: 0; background: rgba(0,0,0,0.3);"
+            ></div>
+        </div>
+    </div>
+
+</div>
+
+  <div class="message-drawer-backdrop hidden"></div>
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex">
+    
+      <button type="button" class="sidebar-btn--close" data-side="left"><i class="fas fa-times"></i></button>
+    
+        <div class="c-logo">
+          <a href="https://portal.ulsu.ru" class="navbar-brand has-logo d-none d-sm-inline">
+    
+    
+              <h1 class="logo d-none d-sm-inline">
+                  <img src="//portal.ulsu.ru/pluginfile.php/1/theme_space/customlogosidebar/1644222845/logo.png" alt="ЭИОС &quot;УлГУ&quot;" class="img-fluid">
+              </h1>
+    
+              <h1 class="hidden site-name">ЭИОС "УлГУ"</h1>
+    
+          </a>
+        </div>
+    
+        <nav class="c-flat-nav m-b-1">
+          <ul class="m-0 p-0">
+                          <li class="" data-key="myhome">
+                              <a href="https://portal.ulsu.ru/my/">
+                                  <span class="nav-icon">
+                                      <i class="icon fas fa-columns fa-fw " aria-hidden="true"  aria-label=""></i>
+                                  </span>
+                                  <span class="text m-l-0">Личный кабинет</span>
+                              </a>
+                          </li>
+                          <li class="" data-key="home">
+                              <a href="https://portal.ulsu.ru/?redirect=0">
+                                  <span class="nav-icon">
+                                      <i class="icon fas fa-home fa-fw " aria-hidden="true"  aria-label=""></i>
+                                  </span>
+                                  <span class="text m-l-0">Домашняя страница</span>
+                              </a>
+                          </li>
+                          <li class="" data-key="calendar">
+                              <a href="https://portal.ulsu.ru/calendar/view.php?view=month">
+                                  <span class="nav-icon">
+                                      <i class="icon far fa-calendar-alt fa-fw " aria-hidden="true"  aria-label=""></i>
+                                  </span>
+                                  <span class="text m-l-0">Календарь</span>
+                              </a>
+                          </li>
+                          <li class="" data-key="privatefiles">
+                              <a href="https://portal.ulsu.ru/user/files.php">
+                                  <span class="nav-icon">
+                                      <i class="icon far fa-hdd fa-fw " aria-hidden="true"  aria-label=""></i>
+                                  </span>
+                                  <span class="text m-l-0">Личные файлы</span>
+                              </a>
+                          </li>
+                      <li class="list-group-item" data-key="mycourses">
+                          <button class="m-l-0 has-arrow w-100 d-block accordion collapsed" id="accordionNav-mycourses" data-toggle="collapse" data-target="#accordionNavC-mycourses" aria-expanded="false" aria-controls="accordionNavC">
+        
+                              <i class="icon fas fa-caret-down"></i>
+                              <span class="text">Мои курсы</span>
+        
+                          </button>
+                          <ul id="accordionNavC-mycourses" class="m-0 p-1 collapse" data-parent="#accordionNav-mycourses">
+                                      <li class="" data-key="100552">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=100552">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">Актуальные вопросы профилактики новой коронавирусной инфекции (ОК)</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="32003">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=32003">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Алгебра_и_геометрия_1_64824</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="32009">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=32009">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Алгебра_и_геометрия_2_64830</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="19449">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=19449">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">Анкетирование студентов и преподавателей УлГУ</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="29236">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=29236">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">Безопасность жизнедеятельности (ОК)</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="111287">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=111287">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Безопасность_жизнедеятельности_4_130306</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="21734">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=21734">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Введение_в_специальность_1_48336</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="25588">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=25588">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Введение_в_специальность_1_54968</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104486">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104486">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Высокоуровневые_методы_информатики_и_про..._3_122878</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104472">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104472">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Вычислительная_математика_4_122860</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104474">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104474">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Вычислительная_математика_4_122862</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="27066">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=27066">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Дискретная_математика_1_58268</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="105374">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=105374">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Дифференциальные_уравнения_3_124157</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="96797">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=96797">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">УКВ_Инвестируй правильно!</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="101674">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=101674">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Инновационная_экономика_и_технологическо..._4_118921</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="62336">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=62336">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Иностранный_язык_1_87744</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="59856">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=59856">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Иностранный_язык_1_85653</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="62339">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=62339">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Иностранный_язык_2_87747</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="91194">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=91194">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Иностранный_язык_2_113102</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="106890">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=106890">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Иностранный_язык_3_126158</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="146094">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=146094">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Иностранный_язык_3_165575</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="106892">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=106892">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Иностранный_язык_4_126161</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="161345">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=161345">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Иностранный_язык_4_178912</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="25590">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=25590">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Информатизация_общества_2_54974</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="27067">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=27067">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Информатика_и_программирование_1_58271</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="27068">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=27068">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Информатика_и_программирование_2_58274</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="25589">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=25589">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Информационные_системы_и_технологии_1_54971</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="29235">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=29235">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">История (ОК)</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="38246">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=38246">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_История_2_69104</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="21732">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=21732">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_История_2_48329</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="27069">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=27069">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Математическая_логика_2_58277</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="32000">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=32000">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Математический_анализ_1_64821</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="32006">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=32006">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Математический_анализ_2_64827</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="21733">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=21733">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Методы_программирования_и_прикладные_алг..._2_48332</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104488">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104488">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Методы_разработки_программного_обеспечен..._3_122881</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104464">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104464">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Операционные_системы_4_122850</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="163240">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=163240">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Операционные_системы_4_180675</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="66083">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=66083">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">Основы предпринимательского права (ОК)</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="29234">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=29234">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">Основы проектного управления (ОК)</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="135860">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=135860">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Основы_проектного_управления_3_154200</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104476">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104476">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Программирование_в_среде_Windows_4_122865</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104478">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104478">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Проектная_деятельность_3_122868</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104480">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104480">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Проектная_деятельность_3_122870</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104482">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104482">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Проектная_деятельность_3_122872</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104490">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104490">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Проектный_практикум_3_122884</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="66080">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=66080">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">Психология и педагогика (ОК)</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104484">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104484">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Психология_и_педагогика_3_122875</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="116157">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=116157">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Русский_язык_и_культура_речи_4_135511</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104462">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104462">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Теория_систем_и_системный_анализ_4_122847</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104466">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104466">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Технологическая_(проектно_технологическа..._4_122853</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104468">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104468">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Технологическая_(проектно_технологическа..._4_122855</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="104470">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=104470">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Технологическая_(проектно_технологическа..._4_122857</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="29237">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=29237">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">Физическая культура и спорт (ОК)</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="20061">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=20061">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">Философия (ОК)</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="161342">
+                                          <a class="" href="https://portal.ulsu.ru/course/view.php?id=161342">
+                                              <span class="nav-icon">
+                                                  <i class="icon fas fa-graduation-cap fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">ПРИ_О_20/1_Элективные_дисциплины_по_физической_куль..._4_178910</span>
+                                          </a>
+                                      </li>
+                                      <li class="" data-key="courseindexpage">
+                                          <a class="" href="https://portal.ulsu.ru/my/">
+                                              <span class="nav-icon">
+                                                  <i class="icon far fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                                              </span>
+                                              <span class="text">Больше...</span>
+                                          </a>
+                                      </li>
+                          </ul>
+                      </li>
+          </ul>
+        </nav>
+    
+        <aside id="block-region-sidebar" class="block-region" data-blockregion="sidebar" data-droptarget="1"></aside>
+    
+        <nav class="c-flat-nav my-4">                  <a href="https://portal.ulsu.ru/blocks/elective_courses/list_elective_courses.php" title="Университетские курсы по выбору">Университетские курсы по выбору</a>
+                  <a href="https://portal.ulsu.ru/blocks/online_edu/list_open_courses.php" title="Массовые открытые онлайн-курсы">Массовые открытые онлайн-курсы</a>
+                  <a href="https://portal.ulsu.ru/mod/page/view.php?id=244307" title="Технические требования">Технические требования</a>
+                  <a href="https://portal.ulsu.ru/mod/page/view.php?id=770175" title="Нормативные документы">Нормативные документы</a>
+</nav>
+    
+        <div class="sidebar-custom-box-nav my-4">
+            <hr class="hr" />
+            <h4 class="sidebar-custom-box-nav-title"></h4>
+            
+        </div>
+    
+        <div class="sidebar-custom-box my-4">
+            <hr class="hr" />
+            <h4 class="sidebar-custom-box-title"></h4>
+            <div class="sidebar-custom-box-desc"></div>
+        </div>
+    
+    </div>
+</div>
+
+
+<footer id="page-footer" class="s-footer">
+
+  <div class="c-container l-with-sidebar">
+
+        
+
+        <div class="s-footer--copy row no-gutters">
+
+          <div class="s-footer--additional col-12 contact p-0">
+              <ul class="list-inline">
+                  <li class="d-sm-block d-lg-inline mb-sm-3 mb-lg-0 mr-sm-0 mr-lg-4"><i class="mr-2 fas fa-globe-africa"></i><a href="https://www.ulsu.ru/" target="_blank">УлГУ - официальный сайт</a></li>
+                  <li class="d-sm-block d-lg-inline mb-sm-3 mb-lg-0 mr-sm-0 mr-lg-4"><i class="mr-2 fas fa-mobile-alt"></i>Тел : 8 (8422) 38-44-75</li>
+                  <li class="d-sm-block d-lg-inline"><i class="mr-2 far fa-envelope-open"></i>portal@ulsu.ru</li>
+              </ul>
+          </div>
+
+          <div class="s-footer--social col-12 mt-2 mb-1 social p-0">
+            <ul class="list-social list-inline m-b-1 mx-0">
+                  <li class="list-inline-item">
+                    <a href="https://www.facebook.com/UlSU.ru" target="_blank" class="facebook">
+                      <i class="mr-2 fab fa-facebook"></i>
+                    </a>
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a href="https://twitter.com/#!/ULSU_73" target="_blank" class="twitter">
+                      <i class="mr-2 fab fa-twitter"></i>
+                    </a>
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a href="https://plus.google.com/u/0/b/105297741654867483507/105297741654867483507/about/p/pub" target="_blank" class="googleplus">
+                      <i class="mr-2 fab fa-google-plus-g"></i>
+                    </a>
+                  </li>
+
+
+                  <li class="list-inline-item">
+                    <a href="http://www.youtube.com/user/73press" target="_blank" class="youtube">
+                      <i class="mr-2 fab fa-youtube"></i>
+                    </a>
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a href="https://www.instagram.com/_ULSU_/" target="_blank" class="instagram">
+                      <i class="mr-2 fab fa-instagram"></i>
+                    </a>
+                  </li>
+
+                  <li class="list-inline-item">
+	<a href="https://portal.ulsu.ru/mod/page/view.php?id=244307" target="_blank">
+		<i class="fas fa-users-cog"></i>
+	</a>
+</li>
+            </ul>
+          </div>
+
+          <div class="col-12 mt-4 mb-5 p-0">
+            <span class="copy">© ЭИОС "УлГУ"</span><span class="sep">All rights reserved</span>
+          </div>
+
+
+        </div>
+
+        <div class="o-course-footer">
+            <div id="course-footer"></div>
+            <div class="tool_usertours-resettourcontainer"></div>
+        </div>
+
+        <div class="o-standard-footer-html"><div class="tool_dataprivacy"><a href="https://portal.ulsu.ru/admin/tool/dataprivacy/summary.php">Сводка хранения данных</a></div><div class="validators"><ul class="list-unstyled ml-1">
+              <li><a href="http://validator.w3.org/check?verbose=1&amp;ss=1&amp;uri=https%3A%2F%2Fportal.ulsu.ru%2Fmod%2Fforum%2Fdiscuss.php%3Fd%3D49952">Validate HTML</a></li>
+              <li><a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=-1&amp;url1=https%3A%2F%2Fportal.ulsu.ru%2Fmod%2Fforum%2Fdiscuss.php%3Fd%3D49952">Section 508 Check</a></li>
+              <li><a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=0&amp;warnp2n3e=1&amp;url1=https%3A%2F%2Fportal.ulsu.ru%2Fmod%2Fforum%2Fdiscuss.php%3Fd%3D49952">WCAG 1 (2,3) Check</a></li>
+            </ul></div></div>
+
+  </div>
+
+</footer>
+
+<a href="#top" class="back-to-top" id="backToTop" title="Back to top"><i class="fas fa-arrow-circle-up"></i></a>
+
+
+
+
+<!-- Rating Mail.ru counter -->
+<script type="text/javascript">
+$('.content-message-container').scrollTop($('.content-message-container ')[0].scrollHeight);
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "129281", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = "https://top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div>
+<img src="https://top-fwz1.mail.ru/counter?..." style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
+</div></noscript>
+<!-- //Rating Mail.ru counter -->
+<script src="/CDO/cdo.login.js"></script>
+<script src="/CDO/scrollChatToEnd.js"></script><script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://portal.ulsu.ru/lib/requirejs.php/1644222845/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://portal.ulsu.ru/lib/javascript.php/1644222845/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://portal.ulsu.ru/lib/javascript.php/1644222845/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://portal.ulsu.ru/lib/javascript.php/1644222845/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://portal.ulsu.ru/lib/javascript.php/1644222845/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://portal.ulsu.ru/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("ru",{
+ "Play": "Воспроизвести",
+ "Pause": "Приостановить",
+ "Current Time": "Текущее время",
+ "Duration Time": "Продолжительность",
+ "Remaining Time": "Оставшееся время",
+ "Stream Type": "Тип потока",
+ "LIVE": "ОНЛАЙН",
+ "Loaded": "Загрузка",
+ "Progress": "Прогресс",
+ "Fullscreen": "Полноэкранный режим",
+ "Non-Fullscreen": "Неполноэкранный режим",
+ "Mute": "Без звука",
+ "Unmute": "Со звуком",
+ "Playback Rate": "Скорость воспроизведения",
+ "Subtitles": "Субтитры",
+ "subtitles off": "Субтитры выкл.",
+ "Captions": "Подписи",
+ "captions off": "Подписи выкл.",
+ "Chapters": "Главы",
+ "Close Modal Dialog": "Закрыть модальное окно",
+ "Descriptions": "Описания",
+ "descriptions off": "описания выкл.",
+ "Audio Track": "Звуковая дорожка",
+ "You aborted the media playback": "Вы прервали воспроизведение видео",
+ "A network error caused the media download to fail part-way.": "Ошибка сети вызвала сбой во время загрузки видео.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "Невозможно загрузить видео из-за сетевого или серверного сбоя либо формат не поддерживается.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "Воспроизведение видео было приостановлено из-за повреждения либо в связи с тем, что видео использует функции, неподдерживаемые вашим браузером.",
+ "No compatible source was found for this media.": "Совместимые источники для этого видео отсутствуют.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "Видео в зашифрованном виде, и у нас нет ключей для расшифровки.",
+ "Play Video": "Воспроизвести видео",
+ "Close": "Закрыть",
+ "Modal Window": "Модальное окно",
+ "This is a modal window": "Это модальное окно.",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "Модальное окно можно закрыть нажав Esc или кнопку закрытия окна.",
+ ", opens captions settings dialog": ", откроется диалог настройки подписей",
+ ", opens subtitles settings dialog": ", откроется диалог настройки субтитров",
+ ", opens descriptions settings dialog": ", откроется диалог настройки описаний",
+ ", selected": ", выбрано"
+});
+
+    });
+});;
+
+require(['jquery'], function($) {
+    $('#single_select621d05334629d3').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f621d05334629d2').submit();
+        }
+    });
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select621d05334629d6').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f621d05334629d5').submit();
+        }
+    });
+});
+;
+
+require(
+[
+    'jquery',
+    'core_message/message_popover'
+],
+function(
+    $,
+    Popover
+) {
+    var toggle = $('#message-drawer-toggle-621d0533480ad621d05334629d8, .message-drawer-toggle, .message-drawer-backdrop');
+    Popover.init(toggle);
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+        require(['jquery'], function($) {
+            $('#jump-to-activity').change(function() {
+                if (!$(this).val()) {
+                    return false;
+                }
+                $('#url_select_f621d05334629d18').submit();
+            });
+        });
+    ;
+
+  require(['jquery', 'core_message/message_drawer'], function($, MessageDrawer) {
+      var root = $('#message-drawer-621d0533572a0621d05334629d19, .message-drawer-toggle, .message-drawer-backdrop');
+      MessageDrawer.init(root);
+  });
+  ;
+
+require(['jquery'], function($) {
+
+  var searchbar = $("#searchField"),
+      searchbox = $(".search-box"),
+      searchbarToggle = $("#searchBtn"),
+      searchbarClose = $("#searchBtnClose");
+
+  searchbarToggle.on("click", function(e) {
+     e.preventDefault();
+     searchbar.toggleClass("show");
+     searchbox.toggleClass("active");
+  });
+
+  searchbarClose.on("click", function(e) {
+     searchbar.removeClass("show");
+     searchbox.removeClass("active");
+  });
+
+
+  var sidebar = $("#nav-drawer"),
+      sidebarToggle = $(".sidebar-btn, .sidebar-btn--close");
+      pageWrapper = $("#page-wrapper, #page-footer .c-container");
+      topBarWrapper = $(".s-top");
+
+  sidebarToggle.on("click", function(e) {
+     e.preventDefault();
+     sidebar.toggleClass("closed show-rwd");
+     pageWrapper.toggleClass("l-with-sidebar");
+     topBarWrapper.toggleClass("s-top--sidebar");
+  });
+
+  /*
+   * Bootstrap Cookie Alert by Wruczek
+   * https://github.com/Wruczek/Bootstrap-Cookie-Alert
+   * Released under MIT license
+   */
+  (function () {
+      "use strict";
+
+      var customAlert = document.querySelector("#customAlert");
+      var closeCustomAlert = document.querySelector("#customAlertClose");
+
+      if (!customAlert) {
+         return;
+      }
+
+      customAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+
+      // Show the alert if we cant find the "closeCustomAlert" cookie
+      if (!getCookie("closeCustomAlert")) {
+          customAlert.classList.add("show");
+      }
+
+      // When clicking on the agree button, create a 1 year
+      // cookie to remember user's choice and close the banner
+      closeCustomAlert.addEventListener("click", function () {
+          setCookie("closeCustomAlert", true, 1);
+          customAlert.classList.remove("show");
+      });
+
+      // Cookie functions from w3schools
+      function setCookie(cname, cvalue, exdays) {
+          var d = new Date();
+          d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+          var expires = "expires=" + d.toUTCString();
+          document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+      }
+
+      function getCookie(cname) {
+          var name = cname + "=";
+          var decodedCookie = decodeURIComponent(document.cookie);
+          var ca = decodedCookie.split(';');
+          for (var i = 0; i < ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0) === ' ') {
+                  c = c.substring(1);
+              }
+              if (c.indexOf(name) === 0) {
+                  return c.substring(name.length, c.length);
+              }
+          }
+          return "";
+      }
+  })();
+
+
+  //Back to top button
+  var btn = $('#backToTop');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+  var course_id = 0;
+  $('.breadcrumb a').each(function(){
+      link = $(this).attr('href');
+      regexp = /^https:\/\/portal\.ulsu\.ru\/course\/view\.php\?id=(\d*)/
+      match = link .match(regexp)
+      if (!!match)
+          course_id = match[1]
+          $.get("/CDO/users_activities/in_course_stay.php?course_id="+course_id);
+          console.log(course_id)
+  })
+
+  setTimeout(function tick() {
+      if (course_id > 0){
+          console.log(course_id)
+          setInterval(() => {
+              $.get("/CDO/users_activities/in_course_stay.php?course_id="+course_id);
+              console.log(course_id)
+          }, 1000*60);
+      }
+  }, 1000*60)
+
+
+});
+
+$('.gradingtable > .no-overflow').addClass('table-custom');
+;
+
+require(['theme_space/loader']);
+;
+
+require(['jquery'], function($) {
+    $('.tag_list .tagmorelink').click(function(e) {
+        e.preventDefault();
+        $(this).closest('.tag_list').removeClass('hideoverlimit');
+    });
+    $('.tag_list .taglesslink').click(function(e) {
+        e.preventDefault();
+        $(this).closest('.tag_list').addClass('hideoverlimit');
+    });
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select621d05334629d20').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#mode').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'mod_forum/discussion', 'mod_forum/posts_list', 'mod_forum/lock_toggle', 'mod_forum/favourite_toggle', 'mod_forum/pin_toggle'],
+    function($, Discussion, PostsList, LockToggle, FavouriteToggle, Pin) {
+        var root = $("[data-content='forum-discussion']");
+        Discussion.init(root);
+        PostsList.init(root);
+        root = $('[data-container="discussion-tools"]');
+        LockToggle.init(root);
+        FavouriteToggle.init(root);
+        Pin.init(root);
+});
+;
+require(["core/notification"], function(amd) { amd.init(10706, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"trace"}); });;
+require(["core/page_global"], function(amd) { amd.init(); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435","name":"\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435","error":"\u041e\u0448\u0438\u0431\u043a\u0430","info":"\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f","yes":"\u0414\u0430","no":"\u041d\u0435\u0442","cancel":"\u041e\u0442\u043c\u0435\u043d\u0430","confirm":"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c","areyousure":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b?","closebuttontitle":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","unknownerror":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430"},"repository":{"type":"\u0422\u0438\u043f","size":"\u0420\u0430\u0437\u043c\u0435\u0440","invalidjson":"\u041d\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 JSON","nofilesattached":"\u041d\u0435 \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d \u043d\u0438 \u043e\u0434\u0438\u043d \u0444\u0430\u0439\u043b","filepicker":"\u0412\u044b\u0431\u043e\u0440 \u0444\u0430\u0439\u043b\u0430","logout":"\u0412\u044b\u0445\u043e\u0434","nofilesavailable":"\u041d\u0435\u0442 \u043d\u0438 \u043e\u0434\u043d\u043e\u0433\u043e \u0444\u0430\u0439\u043b\u0430","norepositoriesavailable":"\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043d\u0438 \u043e\u0434\u043d\u043e \u0438\u0437 \u0412\u0430\u0448\u0438\u0445 \u0442\u0435\u043a\u0443\u0449\u0438\u0445 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449 \u0444\u0430\u0439\u043b\u043e\u0432 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0444\u0430\u0439\u043b\u044b \u0432 \u0437\u0430\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u043c\u043e\u043c \u0444\u043e\u0440\u043c\u0430\u0442\u0435.","fileexistsdialogheader":"\u0424\u0430\u0439\u043b \u0441\u043e\u0437\u0434\u0430\u043d","fileexistsdialog_editor":"\u0424\u0430\u0439\u043b \u0441 \u044d\u0442\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u0443\u0436\u0435 \u0431\u044b\u043b \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d \u043a \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u0443\u0435\u043c\u043e\u043c\u0443 \u0442\u0435\u043a\u0441\u0442\u0443","fileexistsdialog_filemanager":"\u0424\u0430\u0439\u043b \u0441 \u044d\u0442\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u0443\u0436\u0435 \u0431\u044b\u043b \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d","renameto":"\u041f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u0442\u044c \u0432 \u00ab{$a}\u00bb","referencesexist":"\u0415\u0441\u0442\u044c \u043f\u0441\u0435\u0432\u0434\u043e\u043d\u0438\u043c\u044b\/\u044f\u0440\u043b\u044b\u043a\u0438 \u0444\u0430\u0439\u043b\u043e\u0432 ({$a}), \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442 \u044d\u0442\u043e\u0442 \u0444\u0430\u0439\u043b \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430","select":"\u0412\u044b\u0431\u0440\u0430\u0442\u044c"},"admin":{"confirmdeletecomments":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b \u0432 \u0442\u043e\u043c, \u0447\u0442\u043e \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u0442\u0435\u0441\u044c \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438?","confirmation":"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"ru"});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-mod_forum-subscriptiontoggle",function() {Y.M.mod_forum.subscriptiontoggle.init();
+});
+ M.util.js_pending('random621d05334629d22'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random621d05334629d22'); });
+})();
+//]]>
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  //The first argument are the elements to which the plugin shall be initialized
+  //The second argument has to be at least a empty object or a object with your desired options
+  OverlayScrollbars(document.querySelectorAll('#nav-drawer'),
+  {scrollbars :
+      {
+        visibility       : "auto",
+        autoHide         : "l",
+        autoHideDelay    : 800,
+        dragScrolling    : true,
+        clickScrolling   : false,
+        touchSupport     : true
+      }
+  });
+});</script>
+
+
+</body>
+</html>
